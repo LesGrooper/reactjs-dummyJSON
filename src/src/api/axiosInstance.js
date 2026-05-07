@@ -5,7 +5,7 @@ const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
   headers: { 'Content-Type': 'application/json' },
   // Required by DummyJSON: sends/receives accessToken & refreshToken cookies
-  withCredentials: true,
+  // withCredentials: true,
 });
 
 // Attach token to every request via Authorization header
