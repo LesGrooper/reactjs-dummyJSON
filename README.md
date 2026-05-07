@@ -39,7 +39,7 @@ npm -v
 ### 1. Clone / masuk ke folder project
 
 ```bash
-cd c:\laragon\www\asdf123
+cd c:\laragon\www\ReactJS-DummyJSON
 ```
 
 ### 2. Install dependencies
