@@ -3,9 +3,7 @@ import { API_BASE_URL, STORAGE_KEYS } from '../utils/constants';
 
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
-  headers: { 'Content-Type': 'application/json' },
-  // Required by DummyJSON: sends/receives accessToken & refreshToken cookies
-  withCredentials: true,
+  headers: { 'Content-Type': 'application/json' }
 });
 
 // Attach token to every request via Authorization header
