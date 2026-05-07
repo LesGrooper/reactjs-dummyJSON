@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 720px;
+}
+
+.backRow { display: flex; }
+
+.title {
+  margin: 0 0 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}

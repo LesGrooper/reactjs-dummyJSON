@@ -1,0 +1,86 @@
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.22s ease;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.collapsed {
+  width: 60px;
+}
+
+.logo {
+  padding: 1.2rem 1rem;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: #6366f1;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 0;
+  flex: 1;
+  gap: 0.15rem;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 1rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navItem:hover {
+  background: var(--hover-bg);
+  color: var(--text-primary);
+}
+
+.active {
+  background: #eef2ff !important;
+  color: #4f46e5 !important;
+  font-weight: 700;
+  border-right: 3px solid #6366f1;
+}
+
+.navIcon { font-size: 1.1rem; flex-shrink: 0; }
+.navLabel { overflow: hidden; }
+
+.bottom {
+  padding: 0.8rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.logoutBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background: none;
+  border: none;
+  color: #ef4444;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: background 0.15s;
+}
+.logoutBtn:hover { background: #fee2e2; }
