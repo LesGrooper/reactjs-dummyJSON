@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DNnoyp5K.js";var t={card:`_card_1nz9l_1`},n=e();function r({children:e,className:r=``}){return(0,n.jsx)(`div`,{className:`${t.card} ${r}`,children:e})}export{r as t};

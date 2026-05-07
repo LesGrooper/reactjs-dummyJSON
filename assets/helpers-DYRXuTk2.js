@@ -1,0 +1,1 @@
+function e(e,t){let n;return(...r)=>{clearTimeout(n),n=setTimeout(()=>e(...r),t)}}function t(e){return new Intl.NumberFormat(`en-US`,{style:`currency`,currency:`USD`}).format(e)}function n(e,t=60){return e?e.length>t?e.slice(0,t)+`...`:e:``}export{t as n,n as r,e as t};
